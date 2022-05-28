@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contentBx">
+            <p>typing speed test</p>
+            <h1>Test your typing skills</h1>
+        </div>
+        <div class="timerBx">
+            <!-- // circular timing counter -->
+            <div class="circle-timer">
+                <h1 class="timecount">60</h1>
+                <p class="sub-heading">Time Left</p>
+            </div>
+            <div class="timerBx-right">
+                <div class="wordBx">
+                    <div class="topBx">
+                        <span class="words">0</span>
+                    </div>
+                    <div class="bottomBx">
+                        <span class="sub-heading">words/min</span>
+                    </div>
+                </div>
+                <div class="charBx">
+                    <div class="topBx">
+                        <span class="chars">0</span>
+                    </div>
+                    <div class="bottomBx">
+                        <span class="sub-heading">chars/min</span>
+                    </div>
+                </div>
+                <div class="mistakeBx">
+                    <div class="topBx">
+                        <span class="mistakes">0</span>
+                    </div>
+                    <div class="bottomBx">
+                        <span class="sub-heading">Mistakes</span>
+                    </div>
+                </div>
+                <div class="accuracyBx">
+                    <div class="topBx">
+                        <span class="accuracy" id="accuracy">0</span>
+                    </div>
+                    <div class="bottomBx">
+                        <span class="sub-heading">% accuracy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inputBx">
+            <div class="tool-tip">
+                <p>faster...</p>
+            </div>
+            <div class="leftInputBx" tabindex="0" contenteditable="true"></div>
+            <div class="rightInputBx" contenteditable="false">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-container">
+        <div class="topBx">
+            <div class="leftBx">
+                <img src="./imgs/turtle.svg" class="expertise-img" alt="">
+            </div>
+            <div class="rightBx">
+                <h3 class="text-heading">You're an Octopus.</h3>
+                <p>Neat! You type with the speed of <span class="wpm">44 wpm</span><span class="cpm">(199 CPM).</span>
+                    Your accuracy was <span class="percentage">93%.</span> Good job!
+                </p>
+
+                <div class="shareIcons">
+                    <p class="share-text">Share your score</p>
+                    <div class="icons">
+                        <div class="icon facebook">
+                            <img src="./imgs/facebook.svg" alt="">
+                        </div>
+                        <div class="icon linkedin">
+                            <img src="./imgs/linkedin.svg" alt="">
+                        </div>
+                        <div class="icon twitter">
+                            <img src="./imgs/twitter.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottomBx">
+            <a href="#" class="btn try-again">Try again</a>
+        </div>
+
+
+        <div class="deleteBx">
+            <img src="./imgs/cross.svg" alt="">
+        </div>
+    </div>
+
+    <script src="paragraphs.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
