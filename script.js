@@ -21,7 +21,7 @@ let wordCount = 0;
 let charInd = 0;
 let mistakes = 0; 
 let timer = 0;
-let totalTime = tempTime = 4;
+let totalTime = tempTime = 60;
 let isTyping = false;
 let wpm = 0;
 let accuracy = 0;
